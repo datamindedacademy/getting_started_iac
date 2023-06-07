@@ -71,7 +71,7 @@ read the instructions in each [README.md](a_provider_config/README.md) and try t
 the majority of the code you can find in or adapt from the [Terraform provider documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)! 
 Good luck, and remember: `terrafrom init`, `terraform plan`, and `terrafrom apply` all the things!
 
-P.S.: Exercise `h_extra` will be very useful in your project since you'll have to deploy it in EMR in AWS and automate
+P.S.: Exercise `g_extra` will be very useful in your project since you'll have to deploy it in EMR in AWS and automate
 the deployment.
 
 Have a look at the Terraform documentation on Amazon EMR [Here](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/emr_cluster)
