@@ -24,7 +24,7 @@ Once you have locally tested your terraform code, it's time to automate your dep
 
 You will need a new `.github` folder in your repository with a `workflows` folder that will contain as many `yml` files as needed.
 
-Use GitHub actions to automate your deployment everytime there's a new push to `master`.
+Use GitHub actions to automate your deployment everytime there's a new push to `master`. For that, it's necessary to create a free account in [Terraform Cloud](https://app.terraform.io/session)
 
 ## EXTRA
 Use GitHub Actions to run your Python tests before applying your Terraform code.
