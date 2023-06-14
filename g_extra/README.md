@@ -1,9 +1,9 @@
-# Deploy your PySpark code on AWS EMR using Terraform and GitHub Actions
+# Deploy your PySpark code on Amazon EMR Serverless using Terraform and GitHub Actions
 
 Now that you have successfully completed all the training exercises, it's time to apply all everything we've learned in a project.
 
 ## Terraform
-Have a look at the Terraform documentation on Amazon EMR [Here](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/emr_cluster)
+Have a look at the Terraform documentation on Amazon EMR [Here](https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/emr-serverless.html)
 
 Go back to you repository `getting_started_pyspark` and create a new folder `terraform`, this is where we will store
 all our terraform files (.tf).
