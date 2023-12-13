@@ -40,6 +40,15 @@ jobs:
         uses: hashicorp/setup-terraform@v1
 
       # TODO: Complete CI/CD Pipeline
-        
+      - name: terraform fmt
+        uses: dflook/terraform-fmt-check@v1
+        id: fmt-check
+        with:
+          path: e_github_actions
+
+      - name: Wrong formatting found
+        if: ${{ failure() && steps.fmt-check.outputs.failure-reason == 'check-failed' }}
+        run: echo "formatting check failed"
+
         
       
